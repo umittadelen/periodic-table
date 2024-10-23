@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700" rel="stylesheet" />
+    <title>Periodic Table</title>
+    <style>
+        body {
+            font-family: "Quicksand", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            background-color: #f4f4f4;
+        }
+
+        .periodic-table-div {
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            height: 100%;
+            table-layout: fixed;
+        }
+
+        td {
+            border: 1px #000 solid;
+            text-align: center;
+            vertical-align: middle;
+            position: relative;
+            box-sizing: border-box;
+            width: calc(100% / 18);
+            height: calc(100% / 10);
+        }
+
+        td span {
+            display: block;
+            font-size: 0.9vw;
+            font-weight: 500;
+        }
+
+        td .symbol {
+            font-size: 2vw;
+            font-weight: bold;
+        }
+
+        .noble-gases { background-color: #FF7F7F; }
+        .alkali-metals { background-color: #FFB74D; }
+        .alkaline-earth-metals { background-color: #FFF176; }
+        .metalloids { background-color: #81C784; }
+        .nonmetals { background-color: #64B5F6; }
+        .reactive-nonmetals { background-color: #4DB6AC; }
+        .transition-metals { background-color: #BA68C8; }
+        .post-transition-metals { background-color: #64B5F6; }
+        .unknown-series { background-color: #B0BEC5; }
+        .actinoids { background-color: #f184e5; }
+        .lanthanoids { background-color: #A5D6A7; }
+
+        ::-webkit-scrollbar {
+            background-color: #f4f4f4;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #000000;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="periodic-table-div">
+        <table id="periodic-table"></table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
