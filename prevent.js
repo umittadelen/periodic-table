@@ -54,7 +54,7 @@ const themes = [
         '--lanthanoids-border': '#32FF3B',
         
         '--text-color': '#FFF',
-        '--background': '#1F1F1F'
+        '--background': '#000'
     },
     {
         '--noble-gases': '#FFF',
