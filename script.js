@@ -68,10 +68,6 @@ function createPeriodicTable(elements) {
             if (seriesClass) {
                 cell.classList.add(seriesClass);
                 cell.classList.add("element");
-                if (element.name == "") {
-                    cell.classList.add("element");
-                }
-                
             }
         } else {
             console.warn(`Cell not found for element: ${element.symbol} at position x:${x}, y:${adjustedY}`);
