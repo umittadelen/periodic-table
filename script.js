@@ -35,9 +35,13 @@ function createPeriodicTable(elements) {
     for (let row = 1; row <= 11; row++) {
         const tr = document.createElement('tr');
         const th = document.createElement('th');
-        th.innerText = row; // Set row number
-        tr.appendChild(th); // Add row number to the start of the row
-
+        if (row == 8 || row == 9){
+        } else {
+            if (row > 8){th.innerText = row-4;}
+            else {th.innerText = row;}
+        }
+        tr.appendChild(th);
+        
         for (let col = 0; col < 18; col++) {
             const td = document.createElement('td');
             td.setAttribute('data-x', col);
