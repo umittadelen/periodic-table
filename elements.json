@@ -687,7 +687,7 @@
         },
         {
             "position": {
-                "x": 3,
+                "x": 2,
                 "y": 9
             },
             "atomic_number": 57,
@@ -699,7 +699,7 @@
         },
         {
             "position": {
-                "x": 4,
+                "x": 3,
                 "y": 9
             },
             "atomic_number": 58,
@@ -711,7 +711,7 @@
         },
         {
             "position": {
-                "x": 5,
+                "x": 4,
                 "y": 9
             },
             "atomic_number": 59,
@@ -723,7 +723,7 @@
         },
         {
             "position": {
-                "x": 6,
+                "x": 5,
                 "y": 9
             },
             "atomic_number": 60,
@@ -735,7 +735,7 @@
         },
         {
             "position": {
-                "x": 7,
+                "x": 6,
                 "y": 9
             },
             "atomic_number": 61,
@@ -747,7 +747,7 @@
         },
         {
             "position": {
-                "x": 8,
+                "x": 7,
                 "y": 9
             },
             "atomic_number": 62,
@@ -759,7 +759,7 @@
         },
         {
             "position": {
-                "x": 9,
+                "x": 8,
                 "y": 9
             },
             "atomic_number": 63,
@@ -771,7 +771,7 @@
         },
         {
             "position": {
-                "x": 10,
+                "x": 9,
                 "y": 9
             },
             "atomic_number": 64,
@@ -783,7 +783,7 @@
         },
         {
             "position": {
-                "x": 11,
+                "x": 10,
                 "y": 9
             },
             "atomic_number": 65,
@@ -795,7 +795,7 @@
         },
         {
             "position": {
-                "x": 12,
+                "x": 11,
                 "y": 9
             },
             "atomic_number": 66,
@@ -807,7 +807,7 @@
         },
         {
             "position": {
-                "x": 13,
+                "x": 12,
                 "y": 9
             },
             "atomic_number": 67,
@@ -819,7 +819,7 @@
         },
         {
             "position": {
-                "x": 14,
+                "x": 13,
                 "y": 9
             },
             "atomic_number": 68,
@@ -831,7 +831,7 @@
         },
         {
             "position": {
-                "x": 15,
+                "x": 14,
                 "y": 9
             },
             "atomic_number": 69,
@@ -843,7 +843,7 @@
         },
         {
             "position": {
-                "x": 16,
+                "x": 15,
                 "y": 9
             },
             "atomic_number": 70,
@@ -855,7 +855,7 @@
         },
         {
             "position": {
-                "x": 17,
+                "x": 16,
                 "y": 9
             },
             "atomic_number": 71,
@@ -1083,7 +1083,7 @@
         },
         {
             "position": {
-                "x": 3,
+                "x": 2,
                 "y": 10
             },
             "atomic_number": 89,
@@ -1095,7 +1095,7 @@
         },
         {
             "position": {
-                "x": 4,
+                "x": 3,
                 "y": 10
             },
             "atomic_number": 90,
@@ -1107,7 +1107,7 @@
         },
         {
             "position": {
-                "x": 5,
+                "x": 4,
                 "y": 10
             },
             "atomic_number": 91,
@@ -1119,7 +1119,7 @@
         },
         {
             "position": {
-                "x": 6,
+                "x": 5,
                 "y": 10
             },
             "atomic_number": 92,
@@ -1131,7 +1131,7 @@
         },
         {
             "position": {
-                "x": 7,
+                "x": 6,
                 "y": 10
             },
             "atomic_number": 93,
@@ -1143,7 +1143,7 @@
         },
         {
             "position": {
-                "x": 8,
+                "x": 7,
                 "y": 10
             },
             "atomic_number": 94,
@@ -1155,7 +1155,7 @@
         },
         {
             "position": {
-                "x": 9,
+                "x": 8,
                 "y": 10
             },
             "atomic_number": 95,
@@ -1167,7 +1167,7 @@
         },
         {
             "position": {
-                "x": 10,
+                "x": 9,
                 "y": 10
             },
             "atomic_number": 96,
@@ -1179,7 +1179,7 @@
         },
         {
             "position": {
-                "x": 11,
+                "x": 10,
                 "y": 10
             },
             "atomic_number": 97,
@@ -1191,7 +1191,7 @@
         },
         {
             "position": {
-                "x": 12,
+                "x": 11,
                 "y": 10
             },
             "atomic_number": 98,
@@ -1203,7 +1203,7 @@
         },
         {
             "position": {
-                "x": 13,
+                "x": 12,
                 "y": 10
             },
             "atomic_number": 99,
@@ -1215,7 +1215,7 @@
         },
         {
             "position": {
-                "x": 14,
+                "x": 13,
                 "y": 10
             },
             "atomic_number": 100,
@@ -1227,7 +1227,7 @@
         },
         {
             "position": {
-                "x": 15,
+                "x": 14,
                 "y": 10
             },
             "atomic_number": 101,
@@ -1239,7 +1239,7 @@
         },
         {
             "position": {
-                "x": 16,
+                "x": 15,
                 "y": 10
             },
             "atomic_number": 102,
@@ -1251,7 +1251,7 @@
         },
         {
             "position": {
-                "x": 17,
+                "x": 16,
                 "y": 10
             },
             "atomic_number": 103,

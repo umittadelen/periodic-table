@@ -57,9 +57,9 @@ function createPeriodicTable(elements) {
         if (cell) { // Check if cell is found
             // Add content to the cell
             cell.innerHTML = `
+                <span class="${element.name !== "" ? 'atomic_number' : ''}">${element.atomic_number}</span>
                 <div class="symbol">${element.symbol}</div>
                 <span>${element.name}</span>
-                <span>${element.atomic_number}</span>
                 <span>${element.weight}</span>
             `;
 
@@ -67,6 +67,11 @@ function createPeriodicTable(elements) {
             const seriesClass = seriesClassMap[element.series] || 'unknown-series';
             if (seriesClass) {
                 cell.classList.add(seriesClass);
+                cell.classList.add("element");
+                if (element.name == "") {
+                    cell.classList.add("element");
+                }
+                
             }
         } else {
             console.warn(`Cell not found for element: ${element.symbol} at position x:${x}, y:${adjustedY}`);
